@@ -16,7 +16,7 @@
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
     "types": [],
-    "baseUrl": "."
+    "baseUrl": ".",
   },
   "exclude": ["node_modules", "dist", "./dev"]
 }

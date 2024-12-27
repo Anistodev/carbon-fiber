@@ -1,6 +1,6 @@
 {
   "name": "carbon-fiber",
-  "version": "0.0.1",
+  "version": "0.0.31",
   "description": "Carbon Fiber components",
   "license": "MIT",
   "author": "sassan",
@@ -14,8 +14,7 @@
     "url": "https://github.com/Anistodev/carbon-fiber/issues"
   },
   "files": [
-    "dist",
-    "tailwind.config.js"
+    "dist"
   ],
   "private": false,
   "sideEffects": false,
@@ -38,10 +37,8 @@
     "import": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
-    },
-    "config": "./dist/tailwind.config.js"
+    }
   },
-  "typesVersions": {},
   "scripts": {
     "dev": "vite serve dev",
     "build": "tsup",
@@ -87,5 +84,6 @@
   "dependencies": {
     "cva": "1.0.0-beta.2",
     "lucide-solid": "^0.469.0"
-  }
+  },
+  "typesVersions": {}
 }

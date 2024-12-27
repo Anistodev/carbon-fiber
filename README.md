@@ -20,6 +20,28 @@ yarn add carbon-fiber
 pnpm add carbon-fiber
 ```
 
+## Tailwind Setup
+To use the Carbon Fiber color palette in your project, add the plugin to your `tailwind.config.js`:
+```js
+module.exports = {
+  content: [
+    // Rest of your content
+    // ...
+    "./node_modules/carbon-fiber/dist/**/*.{js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "background": "#111111",
+        "text": "#eeeeee",
+        "primary": "#0e0e0e",
+        "secondary": "#191919"
+      }
+    }
+  }
+}
+```
+
 Use it:
 
 ```tsx
