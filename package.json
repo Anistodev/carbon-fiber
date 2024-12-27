@@ -39,7 +39,7 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
-    "config": "./tailwind.config.js"
+    "config": "./dist/tailwind.config.js"
   },
   "typesVersions": {},
   "scripts": {
